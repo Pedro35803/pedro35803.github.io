@@ -1,0 +1,25 @@
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.informations {
+    /* background-color: #7C7562; */
+    width: 25%;
+    margin-right: 25px;
+}
+
+.minhaFoto {
+    border-radius: 50%;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: row;
+}
+
+.icone {
+    width: 25px;
+    height: 25px;
+}
