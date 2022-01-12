@@ -95,3 +95,31 @@ body {
 .tarefas {
     padding-bottom: 4px;
 }
+
+@media (max-width: 1125px) {
+    .informations h2{
+        font-size: 26px;
+    }
+    
+    .informations h3{
+        font-size: 24px;
+    }
+
+    .informations p{
+        font-size: 21px;
+    }
+}
+@media (max-width: 675px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .informations {
+        width: 100%;
+    }
+
+    #elemento-final {
+        margin-bottom: 25px;
+    }
+}
